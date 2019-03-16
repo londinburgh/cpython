@@ -50,11 +50,11 @@ class TestAbstractNumbers(unittest.TestCase):
 
             @property
             def real(self):
-                return self._imag
+                return self._real
 
             @property
             def imag(self):
-                return self._real
+                return self._imag
 
             def __add__(self, other):
                 pass
